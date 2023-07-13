@@ -5,7 +5,10 @@ Pod::Spec.new do |spec|
   spec.license      = 'MIT'
   spec.homepage     = 'https://github.com/imaddamianos/FirebasePods-imad'
   spec.author       = 'imad'
-  spec.source       = { :git => 'https://github.com/imaddamianos/FirebasePods-imad.git', :tag => s.version.to_s }
+  spec.source       = { :git => 'https://github.com/imaddamianos/FirebasePods-imad.git' }
+spec.version = '1.0.0'
+
+
 
   spec.platform     = :ios, '11.0'
   spec.source_files = 'Classes/**/*.{swift}'
