@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => 'https://github.com/imaddamianos/FirebasePods-imad.git', :tag => "#{spec.version}" }
 
   spec.platform     = :ios, '11.0'
-  spec.source_files = 'FirebasePods-imad/Classes/**/*.{swift}'
+  spec.source_files = 'Classes/**/*.{swift}'
   spec.swift_version = '5.0'
 
   spec.dependency 'Firebase/Crashlytics'
