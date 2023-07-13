@@ -1,0 +1,18 @@
+Pod::Spec.new do |spec|
+  spec.name         = 'FirebasePods-imad'
+  spec.version      = '1.0.0'
+  spec.summary      = 'Firebase SDK integration for Marvel app'
+  spec.license      = 'MIT'
+  spec.homepage     = 'https://github.com/imaddamianos/FirebasePods-imad'
+  spec.author       = 'imad'
+  spec.source       = { :git => 'https://github.com/imaddamianos/FirebasePods-imad.git', :tag => "#{spec.version}" }
+
+  spec.platform     = :ios, '11.0'
+  spec.source_files = 'FirebasePods-imad/Classes/**/*.{swift}'
+  spec.swift_version = '5.0'
+
+  spec.dependency 'Firebase/Crashlytics'
+  spec.dependency 'Firebase/RemoteConfig'
+  spec.dependency 'Firebase/Analytics'
+end
+
